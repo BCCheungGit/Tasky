@@ -17,7 +17,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { DayPicker } from 'react-day-picker';
+import { DayPicker, getDefaultClassNames } from 'react-day-picker';
 
 // ---------- utils start ----------
 /**
@@ -248,7 +248,7 @@ function Calendar({
   }, []);
 
   const YEARS = React.useMemo(() => genYears(yearRange), []);
-
+  const defaultClassNames = getDefaultClassNames();
   return (
     <DayPicker
       showOutsideDays={showOutsideDays}
