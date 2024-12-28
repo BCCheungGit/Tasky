@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#4F46E5" />
+  
+  <!-- Checkmark list shape -->
+  <g fill="white">
+    <!-- List lines -->
+    <rect x="30" y="30" width="40" height="4" rx="2" />
+    <rect x="30" y="48" width="40" height="4" rx="2" />
+    <rect x="30" y="66" width="40" height="4" rx="2" />
+    
+    <!-- Centered Checkmark -->
+    <path
+      d="M35 50L45 60L65 40"
+      stroke="white"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+  </g>
+</svg>
