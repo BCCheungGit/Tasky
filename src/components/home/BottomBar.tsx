@@ -47,7 +47,7 @@ const BottomBar = () => {
           <DialogHeader>
             <DialogTitle>Erm...</DialogTitle>
             <DialogDescription>
-              This link doesn't actually do anything... whoops!
+              This link doesn&apos;t actually do anything... whoops!
             </DialogDescription>
           </DialogHeader>
         <DialogFooter className="flex justify-end">

@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="sm:px-16 bg-background px-6 w-full flex items-center py-3 fixed top-0 z-20 border-b-2">
       <div className="w-full flex justify-between items-center mx-auto">
-        <a
+        <Link
           href="/#"
           className="flex items-center gap-2"
           onClick={() => {
@@ -33,7 +33,7 @@ const Navbar = () => {
           <p className="text-white text-[19px] sm:text-[22px] font-bold cursor-pointer flex">
             TASKY
           </p>
-        </a>
+        </Link>
         <ul className="list-none flex flex-row gap-10">
           {status === "loading" ? (
             <Button variant="outline" disabled>

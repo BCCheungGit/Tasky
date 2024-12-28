@@ -114,9 +114,9 @@ export default function SignUpPage() {
             <div className="flex flex-col items-center justify-center">
               <p className="text-center mt-4">
                 Don&apos;t have an account?{" "}
-                <a href="/sign-up" className="text-primary">
+                <Link href="/sign-up" className="text-primary">
                   Sign up
-                </a>
+                </Link>
               </p>
             <Link href="/" className="text-primary hover:text-slate-600">
              Back to home 
