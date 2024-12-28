@@ -15,6 +15,7 @@ import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { useToast } from "@/hooks/use-toast";
+import Link from "next/link";
 
 export default function SignUpPage() {
   const { toast } = useToast();
@@ -112,14 +113,14 @@ export default function SignUpPage() {
             </form>
             <div className="flex flex-col items-center justify-center">
               <p className="text-center mt-4">
-                Don't have an account?{" "}
+                Don&apos;t have an account?{" "}
                 <a href="/sign-up" className="text-primary">
                   Sign up
                 </a>
               </p>
-            <a href="/" className="text-primary hover:text-slate-600">
+            <Link href="/" className="text-primary hover:text-slate-600">
              Back to home 
-            </a>
+            </Link>
             </div>
           </CardContent>
         </Card>

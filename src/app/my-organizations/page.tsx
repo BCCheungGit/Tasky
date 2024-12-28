@@ -182,7 +182,7 @@ const MyOrganizationsPage = () => {
         {organizations.length === 0 ? (
           <div className="flex flex-row gap-5 sm:mt-28 items-center w-full mt-20">
             <h1 className="text-xl ml-10 font-semibold">
-              It's too quiet in here...
+              It&apos;s too quiet in here...
             </h1>
             <div className="flex flex-row items-center justify-center gap-5 h-fit w-fit">
               <BlurFade duration={2}>

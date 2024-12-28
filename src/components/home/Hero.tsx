@@ -21,12 +21,12 @@ const Hero = () => {
         <ReviewMarquee />
         <div className="flex items-center justify-center w-full h-full gap-8">
           <Button asChild variant="outline" className="w-fit">
-            <a
+            <Link
               href="/#"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               Back to top <ArrowUp />
-            </a>
+            </Link>
           </Button>
           <Button asChild>
             <Link href={status == "authenticated" ? '/dashboard' : '/sign-up'}>

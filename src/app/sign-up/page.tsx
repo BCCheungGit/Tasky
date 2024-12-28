@@ -10,6 +10,7 @@ import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 import { motion } from 'framer-motion';
 import { useToast } from '@/hooks/use-toast';
+import Link from 'next/link';
 
 
 export default function SignUpPage() {
@@ -122,9 +123,9 @@ export default function SignUpPage() {
                 Sign in
               </a>
             </p>
-            <a href="/" className="text-primary hover:text-slate-600">
+            <Link href="/" className="text-primary hover:text-slate-600">
              Back to home 
-            </a>
+            </Link>
           </div>
         </CardContent>
       </Card>
